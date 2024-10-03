@@ -70,7 +70,7 @@ const createTaskListItem = (task) => {
 
     if (task.checked) {
       toDo.classList.add("completed");
-      concludeTaskButton.innerHTML = '<img src="/RID-187098-Desafio-3/check.svg" alt="Concluído">';
+      concludeTaskButton.innerHTML = '<img src="/check.svg" alt="Concluído">';
       concludeTaskButton.style.pointerEvents = "none";
       concludeTaskButton.style.background = "transparent";
       concludeTaskButton.style.border = "none"; 
@@ -96,7 +96,7 @@ const createTaskListItem = (task) => {
 
   if (task.checked) {
     toDo.classList.add("completed");
-    concludeTaskButton.innerHTML = '<img src="/Desafio-3/check.svg">';
+    concludeTaskButton.innerHTML = '<img src="/check.svg">';
     concludeTaskButton.style.pointerEvents = "none";
     concludeTaskButton.style.background = "transparent";
     concludeTaskButton.style.border = "none";
